@@ -1,0 +1,348 @@
+/* <h1> padding, create some boxed, style and move text, make a gallery */
+
+		/*		Regular body styles		*/
+
+body{
+	color: #d3d0cb;
+	font-family: "Arial Narrow", Arial, Serif; 
+	font-size: 62.5%; /*1em = 10px*/
+	background: #452a0f url(../img/Header.png) repeat-x;
+	}
+
+h1{
+	color: #e8b965;
+	font-family: 'Bowlby One', cursive;
+	font-size: 5.000em; /*50px*/
+	margin-left: 05.208333333333%; /*50px*/
+	}
+	
+h2{
+	color: #e8b965;
+	font-family: "Arial Black", Arial, Serif;
+	font-size: 3.500em;/*35px*/ 
+	margin: .961538461539%; /*5px*/
+	}
+
+h3{
+	color: #e8b965;
+	font-family: "Arial Black", Arial, Serif;
+	font-size: 3.000em; /*30px*/
+	margin: 0 auto;
+	}
+
+
+
+p, ul{
+	font-size: 1.700em; /*17px*/
+	word-spacing: 3px;
+	vertical-align: 10%;
+	
+	}
+
+div#top{
+	margin: 0 auto;
+	width: 90%; /*960*/
+}
+
+			/* 		Navigation		 */
+
+#nav{
+	margin: 0 auto;
+	width: 60%;
+	}
+
+ul#navi{
+	font-family: "Arial Black", Arial, Serif;
+	font-weight: bold;
+	list-style-type: none;
+	/*margin-right: 80px;*/
+	
+	}
+
+ul#navi li{
+	float: left;
+	width: 22%;
+	/*margin-right: .520833333333%; 5px
+	margin-left: .520833333333%; /*5px*/*/
+	}
+	
+#nav a:link{
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid; /*1px*/
+	
+	}
+
+#nav a:visited{
+	color: #ae6517;
+	
+	}
+	
+#nav a:hover{
+	color: #693d0e;
+	border-bottom: none;
+	}
+
+#nav a:active{
+	color: #b2916d;
+	border-bottom: none;
+	}
+
+div#whole{
+	width: 80%; /*960px*/
+	overflow: hidden;
+	background: rgba(0, 0, 0, .50);
+	margin: 0 auto;
+}
+
+
+	
+div#main{
+	float: left;
+	width: 48.958333%; /*520*/
+	padding: 01.136363636364%; /*0px 5px 0px 5px*/
+	}
+
+div#sidebar{
+	float: right;
+	width: 45.833333333333%; /*440px*/
+	padding: 01.136363636364%; /*0px 5px 0px 5px*/
+	border-left: 2px solid #e8b965;
+	}
+
+					/*Images UL*/
+
+
+
+ul#gallery{
+	list-style-type: none;
+	display: inline;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+	}
+
+
+#gallery li{
+	width: 30.333333%;
+	float: left;
+	margin-top: 5px;
+	padding: 0 01.136363636364%; /*5px*/
+	}
+
+li img{
+	width: 100%;
+}
+
+
+div#img{ /*hercules*/
+	float: left;
+	width: 100%;
+	padding: 02.380952380952%; /*10px*/
+	}
+
+#footer{
+	float: right;
+}
+
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+				Media Queries		
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =*/
+
+		/*1000px and below*/
+@media screen and (max-width: 1000px){
+
+	div#whole{
+		width: 80%; /*576px*/
+		margin: 0 auto;
+	}
+
+	div#main{
+		width: 39.583333333333%;/*228px*/
+		float: left;
+	}
+
+	div#sidebar{
+		width: 50%;/*288px*/
+		float: right;
+		border-left: none;
+		
+	}
+
+	ul#gallery{
+	list-style-type: none;
+	display: inline;
+	margin: 0 auto;
+	}
+
+
+li#images{
+	float: left;
+	margin-top: 5px;
+	}
+
+	ul#gallery{
+	list-style-type: none;
+	display: inline;
+	margin: 0 auto;
+	display: block;
+	}
+
+	li img{
+		width: 100%;
+	}
+
+	h2{
+		font-size: 3.000em; /*30px*/
+	}
+
+	h3{
+		font-size: 2.500em; /*25px*/
+	}
+
+}
+
+@media screen and (max-width: 930px){
+	#nav{
+		width: 100%;
+	}
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+				700 tablet and below		
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  */
+@media screen and (max-width: 700px){
+
+
+
+	body{
+		background: url(../img/liger-tablet.jpg);
+		font-size: 52.6;
+	}
+
+	h1{
+		text-align: center;
+		font-size: 3.500em;/*35px*/
+	}
+
+	h2{
+		font-size: 2.000em;/*20px*/
+	}
+
+	h3{
+		font-size: 1.700em;/*17px*/
+	}
+
+	p{
+		font-size: 1.200em;/*12px*/
+	}
+
+	/*		Navigation		*/
+	#nav{
+		width: 100%;
+	}
+
+	ul#navi{
+		font-family: Arial, Serif;
+	}
+
+	#nav a:link{
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid; /*1px*/
+	
+	}
+
+	#nav a:visited{
+	color: #ae6517;
+	}
+	
+	#nav a:hover{
+	color: #e8b965;
+	border-bottom: none;
+	}
+
+	#nav a:active{
+	color: #b2916d;
+	border-bottom: none;
+	}
+
+	div#top{
+		margin: 0 auto;
+	}
+
+	ul#navi{
+		font-family: Arial, Serif;
+		font-size: 1.200em;/*12px*/
+	}
+
+	div#whole{
+		width: 100%;
+	}
+
+	div#main{
+		width: 50%; /*250*/
+		float: left;
+	}
+
+	div#sidebar{
+		width: 40%; /*200*/
+		float: right;
+	}
+
+	li img{
+		width: 100%;
+	}
+
+	div#img{
+		width: 100%;
+	}
+
+}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+				Iphone landscape 500 and below
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+@media screen and (max-width: 530px){
+
+	body{
+		background: url(../img/liger-iphone.jpg);
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	h2, h3{
+		text-align: center;
+	}
+
+	div#whole{
+		width: 60%; /*250px*/
+		border: 1px solid #e8b965;
+	} 
+
+	div#main{
+		width: 100%;
+		float: none;
+	}
+
+	div#sidebar{
+		width: 100%;
+		float: none;
+	}
+
+	li img{
+		width: 100%;
+	}
+
+}
+
+	
+
+
+	
+
+
+
+
+
