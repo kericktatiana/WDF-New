@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movie_review>
+<channel>
+	<item>
+		<title>Freddy Movie</title>
+		<description>reviews and ratings about the new Freddy movie</description>
+		<link>file:///Users/tatianakerick/Documents/WDF-New/Lab7/rss_link.html</link>
+	</item>
+
+	<item>
+		<title>SLC Punk</title>
+		<description>reviews and rantings about the punk cult classic movie</description>
+		<link></link>
+	</item>
+
+	<item>
+		<title>Addams Family</title>
+		<description>reviews and ratings about a classic show gone movie</description>
+		<link></link>
+	</item>
+
+	<item>
+		<title>Hocus Pocus</title>
+		<description>reviews and rating about a halloween favortie</description>
+		<link></link>
+	</item>
+</channel>
+</movie_review>
