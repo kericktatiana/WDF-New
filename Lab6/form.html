@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Forms</title>
+	<link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+	<form>
+		<fieldset>
+		<legend>Things you fill out</legend>
+			<div class="input-block">
+				<label for="fname">First Name</label>
+				<input id="fname" name="fname" type="text" placeholder="Tatiana" required />
+			</div>
+			<div class="input-block">
+				<label for="lname">Last Name</label>
+				<input id="lname" name="lname" type="text" placeholder="Von Satan" required /> 
+			</div>
+			<div class="input-block">
+				<label for="email">Email Address</label>
+				<input id="email" name="email" type="text" placeholder="email@email.com" required />
+			</div>
+			<div class="input-block">
+				<label for="message">Explain why you should live</label>
+				<textarea id="message" name="message" type="text" placeholder="Make it a good excuse" required></textarea>
+			</div>
+			<div class="input-block">
+				<label for="dropdown">Food</label>
+				<select id="dropdown" name="dropdown">
+					<option>Select a food</option>
+					<optgroup label="Breakfast">
+						<option>cereal</option>
+						<option>fench toast</option>
+						<option>eggs</option>
+						<option>pancakes</option>
+						<option>waffles</option>
+					<optgroup label="Lunch">
+						<option>sandwhich</option>
+						<option>soup</option>
+						<option>salad</option>
+						<option>babies</option>
+					<optgroup label="Dinner">
+						<option>steak</option>
+						<option>chicken</option>
+						<option>people's faces</option>
+						<option>pork</option>
+				</select>
+			</div>
+			<div id="radio" style="white-space:nowrap;">
+		
+				<input type="radio" name="gender" value="female" />Female
+				<input type="radio" name="gender" value="male" />Male
+			
+			</div>
+		
+			<p>How do you get around?</p>
+			<div id="check">
+				
+				<input type="checkbox" name="ride" value="car" />Car
+				<input type="checkbox" name="ride" value="bike" />Bike
+				<input type="checkbox" name="ride" value="Skate/long board">Skate/long board
+				<br />
+				<input type="checkbox" name="ride" value="walk" />Walk
+				<input type="checkbox" name="ride" value="horse" />Horse
+				<input type="checkbox" name="ride" value="dragon" />Dragon
+			</div>
+			<br />
+			<div id="button">
+				<button class="submit">Submit</button>
+			</div>			
+
+		</fieldset>
+	</form>
+
+
+</body>
+</html>

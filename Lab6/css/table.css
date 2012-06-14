@@ -1,0 +1,61 @@
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+caption{
+	font-family: 'Metamorphous', cursive;
+	font-size: 30px;
+}
+
+th.bara{
+	background-color: #a48d13;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+th.drag{
+	background-color: #743116;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+th.stark{
+	background-color: #686868;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+th.lan{
+	background-color: #d6323d;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+th.targ{
+	background-color: #7c0303;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+th.doth{
+	background-color: #663854;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+th.night{
+	background-color: #000000;
+	padding: 10px;
+	font: 15px 'Metamorphous', cursive;
+}
+
+tfoot th{
+	color: #ffffff;
+}
+
+td{
+	width: 150px;
+}
