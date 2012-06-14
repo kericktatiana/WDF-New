@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HTML5 Forms</title>
+	<link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+	<form>
+		<fieldset id="search">
+			<legend>Find Something</legend>
+			<div>
+				<input id="searchweb" name="searchweb" type="url" placeholder="search the web" />
+			</div>
+
+			<div>
+				<input id="search" name="search" type="search" placeholder="search this site" list="preset"/>
+				<datalist id="preset">
+					<option label="food" />
+					<option label="music" />
+					<option label="dancing" />
+					<option label="writting" />
+				</datalist>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Personal Information</legend>
+			
+			<div class="input-block">
+				<label for="name">First and Last Name</label>
+				<input id="name" name="name" type="text" placeholder="Taiana Kerick" required autofocus />
+			</div>
+			
+			<div class="input-block">
+				<label for="email">Email Address</label>
+				<input id="email" name="email" type="email" placeholder="Miss_Tatianax@yahoo.com" required/>
+			</div>
+
+			<div>
+				<label for="weight">Your weight</label>
+				<input id="weight" name="weight" type="range" min="80lbs" max="200lbs" />
+			</div>
+		</fieldset>
+		
+		<fieldset>
+
+		</fieldset>
+	</form>
+</body>
