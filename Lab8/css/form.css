@@ -42,10 +42,18 @@ p{
     margin-left: 50px;
 }
 
-div#check{
-    margin-left: 200px;
+
+div#radio{
+    margin: 0;
+    padding: 0;
 }
 
+/*div#stop{
+    float: right;
+    width: 100px;
+    margin-left: -100px;
+
+}*/
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                     Button

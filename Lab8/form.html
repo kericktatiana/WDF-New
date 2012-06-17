@@ -11,23 +11,27 @@
 		<fieldset>
 		<legend>Things you fill out</legend>
 			<div class="input-block">
-				<label for="fname">First Name</label>
+				<label for="fname">First Name
 				<input id="fname" name="fname" type="text" placeholder="Tatiana" required />
+				</label>
 			</div>
 			<div class="input-block">
-				<label for="lname">Last Name</label>
+				<label for="lname">Last Name
 				<input id="lname" name="lname" type="text" placeholder="Von Satan" required /> 
+				</label>
 			</div>
 			<div class="input-block">
-				<label for="email">Email Address</label>
+				<label for="email">Email Address
 				<input id="email" name="email" type="text" placeholder="email@email.com" required />
+				</label>
 			</div>
 			<div class="input-block">
-				<label for="message">Explain why you should live</label>
+				<label for="message">Explain why you should live
 				<textarea id="message" name="message" type="text" placeholder="Make it a good excuse" required></textarea>
+				</label>
 			</div>
 			<div class="input-block">
-				<label for="dropdown">Food</label>
+				<label for="dropdown">Food
 				<select id="dropdown" name="dropdown">
 					<option>Select a food</option>
 					<optgroup label="Breakfast">
@@ -47,26 +51,48 @@
 						<option>people's faces</option>
 						<option>pork</option>
 				</select>
+				</label>
+				<br />
+				<br />
 			</div>
+
+			<div id="stop">
 			<div id="radio" style="white-space:nowrap;">
-		
-				<input type="radio" name="gender" value="female" />Female
-				<input type="radio" name="gender" value="male" />Male
+				<label for="female">
+				 	<input id="female"type="radio" name="gender" value="female" />Female
+				</label>
+				<label for="male">
+					<input id="male" type="radio" name="gender" value="male" />Male
+				</label>
 			
 			</div>
-		
+			<br />
+			<br />
 			<p>How do you get around?</p>
 			<div id="check">
 				
-				<input type="checkbox" name="ride" value="car" />Car
-				<input type="checkbox" name="ride" value="bike" />Bike
-				<input type="checkbox" name="ride" value="Skate/long board">Skate/long board
+				<label for="car">
+					<input id="car"type="checkbox" name="ride" value="car" />Car
+				</label>
+				<label for="bike">
+					<input id="bike" type="checkbox" name="ride" value="bike" />Bike
+				</label>
+				<label for="skate">
+					<input id="skate" type="checkbox" name="ride" value="Skate/long board">Skate/long board
+				</label>
 				<br />
-				<input type="checkbox" name="ride" value="walk" />Walk
-				<input type="checkbox" name="ride" value="horse" />Horse
-				<input type="checkbox" name="ride" value="dragon" />Dragon
+				<label for="walk">
+					<input id="walk" type="checkbox" name="ride" value="walk" />Walk
+				</label>
+				<label for="horse">
+					<input id="horse" type="checkbox" name="ride" value="horse" />Horse
+				</label>
+				<label for="dragon">
+					<input id="dragon" type="checkbox" name="ride" value="dragon" />Dragon
+				</label>
 			</div>
 			<br />
+			</div> <!-- stop -->
 			<div id="button">
 				<button class="submit">Submit</button>
 			</div>			
