@@ -1,0 +1,59 @@
+
+
+body{
+	background: #007fb4;
+	font: 14px Arial;
+}
+
+h1{
+	padding: 0px;
+	font-family: Arial;
+
+}
+
+/*	=	=	=	=	Container	=	=	=	=	=	=	=	*/
+
+div#whole{
+	background: #ffffff;
+	border-radius: 10px;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*	=	=	=	=	Main Content	=	=	=	=	=	=	=	*/
+
+div#main{
+	width: 500px;
+	float: left;
+	margin-left: 50px;
+}
+
+/*	=	=	=	=	Sidebar	=	=	=	=	=	=	=	*/
+
+div#sidebar{
+	width: 200px;
+	float: left;
+	margin: 0 auto;
+}
+
+#sidebar h1{
+	text-align: center;
+	margin-left: 40px;
+}
+
+div#divider{
+	margin: 20px 5px 0px 40px;
+	float: left;
+}
+
+/*	=	=	=	=	Ul	=	=	=	=	=	=	=	*/
+
+ul img{
+	border: 2px solid #555454;
+}
+
+ul{
+	list-style-type: none;
+	bottom-margin: 10px;
+}
