@@ -3,11 +3,13 @@
 body{
 	background: #007fb4;
 	font: 14px Arial;
+	color: #808080;
 }
 
 h1{
 	padding: 0px;
 	font-family: Arial;
+	color: #22aee8;
 
 }
 
@@ -17,8 +19,29 @@ div#whole{
 	background: #ffffff;
 	border-radius: 10px;
 	width: 960px;
+	height: 900px;
 	margin: 0 auto;
 	overflow: hidden;
+	margin-top: 0;
+}
+
+/*	=	=	=	=	Navigation	=	=	=	=	=	=	=	=	*/
+
+	
+
+nav ul{
+	list-style-type: none;
+	width: 960px;
+	height: 50px;
+	background-image: linear-gradient(top, rgb(154,154,154) 36%, rgb(69,69,69) 86%);
+	background-image: -o-linear-gradient(top, rgb(154,154,154) 36%, rgb(69,69,69) 86%);
+	background-image: -moz-linear-gradient(top, rgb(154,154,154) 36%, rgb(69,69,69) 86%);
+	background-image: -webkit-linear-gradient(top, rgb(154,154,154) 36%, rgb(69,69,69) 86%);
+	background-image: -ms-linear-gradient(top, rgb(154,154,154) 36%, rgb(69,69,69) 86%);
+}
+
+nav li{
+	float: left;
 }
 
 /*	=	=	=	=	Main Content	=	=	=	=	=	=	=	*/
@@ -26,24 +49,29 @@ div#whole{
 div#main{
 	width: 500px;
 	float: left;
-	margin-left: 50px;
+	margin: 50px 0px 0px 50px;
 }
 
+footer{
+	float: right;
+	font: bold 16px Arial;
+	margin-top: 60px;
+}
 /*	=	=	=	=	Sidebar	=	=	=	=	=	=	=	*/
 
 div#sidebar{
 	width: 200px;
 	float: left;
-	margin: 0 auto;
+	margin: 50px 0px 0px 0px;
 }
 
 #sidebar h1{
 	text-align: center;
-	margin-left: 40px;
+	margin-left: 35px;
 }
 
 div#divider{
-	margin: 20px 5px 0px 40px;
+	margin: 70px 5px 0px 35px;
 	float: left;
 }
 
