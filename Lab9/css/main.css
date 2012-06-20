@@ -2,7 +2,7 @@
 
 body{
 	background: #007fb4;
-	font: 14px Arial;
+	font: 15px Arial;
 	color: #808080;
 }
 
@@ -42,6 +42,17 @@ nav ul{
 
 nav li{
 	float: left;
+	padding: 10px 50px 5px 10px;
+	font: bold 20px Arial;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+nav li a:hover{
+	color: #000;
 }
 
 /*	=	=	=	=	Main Content	=	=	=	=	=	=	=	*/
@@ -78,10 +89,10 @@ div#divider{
 /*	=	=	=	=	Ul	=	=	=	=	=	=	=	*/
 
 ul img{
-	border: 2px solid #555454;
+	border: 3px solid #555454;
+	margin: 10px;
 }
 
 ul{
 	list-style-type: none;
-	bottom-margin: 10px;
 }
